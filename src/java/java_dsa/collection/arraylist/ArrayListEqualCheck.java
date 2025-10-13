@@ -16,7 +16,9 @@ public class ArrayListEqualCheck {
         if(list1 == list2){
             System.out.println("True");
         }
-        else{
+        else if(list1.equals(list2)){
+            System.out.println("Ture");
+        }else{
             System.out.println("False");
         }
     }
