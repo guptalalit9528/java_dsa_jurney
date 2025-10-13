@@ -10,7 +10,7 @@ public class LinearBinarySearchTimeCheck {
 
         //input Random number
         Random ro = new Random();
-        int [] arr = new int[10000];
+        int [] arr = new int[10_000];
         for(int i = 0; i < arr.length; i++){
             arr[i] = ro.nextInt(0,10);
         }
